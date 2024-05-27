@@ -1,0 +1,11 @@
+.video-Container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px; 
+
+}
+video{
+    width: 95%;    
+    box-shadow: 1px 1px 40px rgb(24, 23, 23);
+}

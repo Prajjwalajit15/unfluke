@@ -1,0 +1,127 @@
+.table-container {
+    overflow-x: auto; 
+    padding-bottom: 40px;
+    
+  }
+  
+  .table {
+    width: 100%;
+    border-collapse: collapse; 
+    box-shadow: 1px 1px 10px rgb(23, 24, 23);
+  }
+  
+  .table th,
+  .table td {
+    padding: 8px;
+    text-align: left;
+  }
+  
+  .table th {
+    background-color: #f2f2f2;
+  }
+  
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+  }
+  
+  .side-heading {
+    font-size: 40px;
+    font-weight: 650;
+    color: #222936;
+    margin-bottom: 0; /* Remove default margin */
+  }
+  
+  .slippage-dropdown {
+    margin-right: 20px; /* Adjust margin as needed */
+  }
+  
+  label {
+    font-weight: 400;
+    margin-right: 5px; /* Add some spacing between the label and the dropdown */
+   
+  }
+  
+  select {
+    padding: 8px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add some border radius for a rounded appearance */
+    border: 1px solid #ddd; /* Add border */
+    background-color: #fff; /* Set background color */
+    cursor: pointer; /* Change cursor on hover */
+    font-size: 16px; /* Adjust font size */
+  }
+  
+  select:hover {
+    border-color: #999; /* Change border color on hover */
+  }
+  
+  select:focus {
+    outline: none; /* Remove focus outline */
+    border-color: #007bff; /* Change border color on focus */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add box shadow on focus */
+  }
+  
+  /* Remove table border */
+  .table th,
+  .table td {
+    border: none;
+  }
+  
+  /* Style table header */
+  .table th {
+    border-bottom: 2px solid #ddd;
+  }
+  
+  /* Style table rows */
+  .table tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Style action column */
+  .action {
+    color: blue;
+  }
+  .table-container {
+    overflow-x: auto;
+    box-shadow: 1px 1px 40px rgb(24, 23, 23); /* Add box shadow */
+    border-radius: 8px; /* Add border radius */
+    max-width: 97%; /* Set maximum width */
+    margin: 0 auto; /* Center the container */
+     
+  }
+  
+  .slippage-dropdown {
+    border:    1px solid rgb(81, 80, 80,0.5);
+    border-radius: 7px;
+    padding: 3px;
+    margin-top: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .slippage-dropdown label {
+    margin-right: 10px;
+  }
+  
+  .slippage-dropdown select {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+  }
+  
+  .slippage-dropdown select:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 0 0.1rem rgba(0, 123, 255, 0.25);
+  }
+  .icon-with-text {
+    display: flex;
+    align-items: center;
+  }
+  
+  

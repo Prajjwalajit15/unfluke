@@ -1,0 +1,13 @@
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: 500;
+    color: #2b2c2e; 
+}
+.leaderboard-container {
+    border: 8px solid #369388;
+    padding: 20px; 
+  }
+  
